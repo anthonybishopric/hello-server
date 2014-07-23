@@ -4,4 +4,6 @@ go build
 mkdir -p target/bin
 cp hello-server target/bin/launch
 SHA=$(git rev-parse HEAD)
-tar -cf hello_$SHA.tar.gz target/*
+pushd target
+tar -cf hello_$SHA.tar.gz *
+popd
