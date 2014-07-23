@@ -5,11 +5,15 @@ This is here because it's useful to have a statically linked hello world server.
 
 ## Building
 
-`make`
+```
+make
+```
 
 ## Running
 
-`./hello-server`
+```
+./hello-server
+```
 
 Or, if you unpack the tar file
 
